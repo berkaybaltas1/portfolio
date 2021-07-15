@@ -9,9 +9,9 @@
   width: 100%;
 }
 .contact-form {
-  margin-top: 2rem;
   display: flex;
   justify-content: center;
+  margin-top: 2rem;
 }
 
 .form-container {
@@ -42,7 +42,7 @@ textarea {
 }
 
 .contact-logo {
-  margin: 10rem 0;
+  margin: 5rem;
   font-family: Montserrat;
   color: var(--color-primary-2);
   font-size: 3rem;

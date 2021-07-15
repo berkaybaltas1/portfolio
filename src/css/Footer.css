@@ -12,10 +12,14 @@
   width: 100%;
 }
 .list-container {
+  padding-left: 2rem;
   margin-top: 5rem;
   padding-bottom: 2rem;
 }
 
+li {
+  list-style: none;
+}
 .footer-container a {
   color: var(--color-primary-3);
   text-align: left;
