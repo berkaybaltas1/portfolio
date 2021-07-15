@@ -1,0 +1,31 @@
+:root {
+  --color-primary-1: #222831;
+  --color-primary-2: #393e46;
+  --color-primary-3: #00adb5;
+  --color-primary-5: #eeeeee;
+  --color-primary-4: #171717;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+hr {
+  margin: auto;
+  width: 5rem;
+  border-color: var(--color-primary-2);
+
+  margin-top: 100px;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

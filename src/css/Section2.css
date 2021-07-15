@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.section2-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section2 {
+  text-align: center;
+  height: 70vh;
+  width: 100%;
+  background-color: var(--color-primary-1);
+}
+
+.section2-logo {
+  margin: 10rem 0;
+  font-family: Montserrat;
+  color: white;
+  font-size: 3rem;
+}
+.btn-container {
+  margin: auto;
+}
+.btn-primary {
+  margin-top: 0rem;
+  z-index: 200;
+  font-size: 1.2rem;
+  border-style: none;
+  color: white;
+  background: var(--color-primary-3);
+  font-family: Montserrat;
+  border-radius: 50px;
+  padding: 1.2rem 2.5rem;
+}
+
+.btn-primary:active {
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+  -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+  box-shadow: inset 0px 0px 5px #c1c1c1;
+  outline: none;
+}
+.animate-btn {
+  transform: translateY(-50px);
+  transition: all 0.1s ease-in-out 0.1s;
+}
+.btn-primary:hover {
+  background: var(--color-primary-2);
+  color: var(--color-primary-3);
+}
+
+.btn-hidden {
+  background-color: var(--color-primary-1);
+  color: var(--color-primary-1);
+}

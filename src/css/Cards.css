@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.card-container {
+  margin-top: 10rem;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5rem;
+}
+
+.card {
+  text-align: center;
+  margin: auto;
+  height: 33rem;
+  width: 30rem;
+  padding-bottom: 2rem;
+}
+
+.card h3 {
+  padding-bottom: 2rem;
+  font-size: 1.5rem;
+  color: var(--color-primary-2);
+  font-family: Montserrat 100;
+}
+.card-logo {
+  font-size: 2.5rem;
+  margin-bottom: 0rem;
+  color: var(--color-primary-2);
+}
+
+.card-list {
+  line-height: 2rem;
+  list-style: none;
+  padding-bottom: 4rem;
+  font-family: Montserrat;
+  color: var(--color-primary-3);
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+.card-hr {
+  width: 2rem;
+}

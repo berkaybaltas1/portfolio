@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.contact-form {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.form-container {
+  text-align: center;
+  width: 350px;
+}
+.header {
+  text-align: center;
+}
+.contact-logo {
+  color: var(--color-primary-2);
+}
+label {
+  font-family: Montserrat;
+  float: left;
+}
+input,
+textarea {
+  resize: none;
+  margin: 1rem 0;
+  padding: 0.2rem 0;
+  width: 100%;
+  float: left;
+}
+
+textarea {
+  padding-bottom: 5rem;
+}
+
+.contact-logo {
+  margin: 10rem 0;
+  font-family: Montserrat;
+  color: var(--color-primary-2);
+  font-size: 3rem;
+}
+.header-contact {
+  text-align: center;
+  margin: -5rem;
+  padding: 0;
+}
+.form-btn {
+  text-transform: uppercase;
+  font-family: Montserrat;
+  font-size: 1rem;
+  border-radius: 50px;
+  padding: 1.2rem 2rem;
+  margin: 5rem 0;
+  background-color: var(--color-primary-2);
+}
+
+.form-btn:hover {
+  color: var(--color-primary-3);
+  border: 2px solid var(--color-primary-3);
+}
+
+.form-btn:active {
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+  -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+  box-shadow: inset 0px 0px 5px #c1c1c1;
+  outline: none;
+}
+
+.hr-footer {
+  margin-bottom: 5rem;
+}
+.success-msg {
+  margin-bottom: 0.5rem;
+  text-align: left;
+  color: green;
+  font-family: Montserrat;
+}
+.error-msg {
+  margin-bottom: 0.5rem;
+  text-align: left;
+  color: red;
+  font-family: Montserrat;
+}
