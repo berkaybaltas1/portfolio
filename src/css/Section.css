@@ -35,25 +35,16 @@ h3 {
   letter-spacing: 0.1rem;
 }
 
-.section-btn-primary {
-  background-color: var(--color-primary-3);
-  color: white;
-  font-size: 1.5rem;
-  margin-top: 50px;
-  padding: 1rem 2rem;
-  border-radius: 50px;
-}
-
 .profile-image {
   z-index: 0;
   position: relative;
-  margin-top: 5rem;
+  margin: 5rem auto;
   object-fit: cover;
   border-radius: 150px;
   width: 20rem;
   height: 20rem;
   box-shadow: 5px 5px var(--color-primary-3);
-  transform: translateX(-400%);
+
   -webkit-transform: translateX(-400%);
   animation: slide-in 0.5s forwards;
   -webkit-animation: slide-in 0.5s forwards;
