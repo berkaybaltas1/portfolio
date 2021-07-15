@@ -43,7 +43,8 @@ textarea {
 }
 
 .contact-logo {
-  margin: 5rem;
+  width: 100%;
+  margin: 5rem 0;
   font-family: Montserrat;
   color: var(--color-primary-2);
   font-size: 3rem;
