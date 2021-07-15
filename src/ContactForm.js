@@ -64,7 +64,6 @@ function ContactForm() {
 
   return (
     <section>
-      curl
       <div className="header-contact">
         <h1 className="contact-logo">Let's chat.</h1>
       </div>
