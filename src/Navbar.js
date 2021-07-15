@@ -9,14 +9,13 @@ function Navbar() {
   let history = useHistory();
   return (
     <nav className="navbar-container">
-      <img
-        onClick={() => history.push("/")}
-        className="logo"
-        src={logo}
-        alt="logo"
-      ></img>
-
       <div className="nav-menu" onClick={() => setClicked(!clicked)}>
+        <img
+          onClick={() => history.push("/")}
+          className="logo"
+          src={logo}
+          alt="logo"
+        ></img>
         <i>
           {clicked ? (
             <HiOutlineX className="icon-menu-close" />

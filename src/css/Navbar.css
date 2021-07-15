@@ -2,8 +2,11 @@
   padding: 0;
   margin: 0;
 }
+nav {
+  padding: 2rem;
+  margin: 2rem;
+}
 .navbar-container {
-  margin: 2rem 10rem;
   background-color: white;
   display: flex;
   justify-content: space-between;
@@ -12,6 +15,7 @@
   width: 50px;
 }
 .icon-menu-open {
+  left: 80%;
   color: var(--color-primary-2);
   z-index: 20;
   position: fixed;
@@ -25,10 +29,8 @@
 @media only screen and (max-width: 800px) {
   .icon-menu-open,
   .icon-menu-close {
-    left: 425px;
   }
   .logo {
-    margin-left: -5rem;
   }
 }
 .icon-menu-close {
@@ -87,7 +89,6 @@ button:hover {
 
 .menu-open {
   z-index: 10;
-  padding: 15rem 0rem;
   margin: 0;
   opacity: 90%;
   line-height: 5rem;
