@@ -41,11 +41,10 @@ h3 {
   margin: 5rem auto;
   object-fit: cover;
   border-radius: 150px;
-  width: 20rem;
-  height: 20rem;
+  width: 15rem;
+  height: 15rem;
   box-shadow: 5px 5px var(--color-primary-3);
 
-  -webkit-transform: translateX(-400%);
   animation: slide-in 0.5s forwards;
   -webkit-animation: slide-in 0.5s forwards;
 }

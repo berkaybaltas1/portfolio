@@ -24,13 +24,6 @@ nav {
   color: var(--color-primary-3);
 }
 
-@media only screen and (max-width: 800px) {
-  .icon-menu-open,
-  .icon-menu-close {
-  }
-  .logo {
-  }
-}
 .icon-menu-close {
   left: 90%;
   position: fixed;

@@ -4,12 +4,12 @@
 }
 
 .section2-container {
+  text-align: center;
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .section2 {
-  text-align: center;
   height: 70vh;
   width: 100%;
   background-color: var(--color-primary-1);
