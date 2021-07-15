@@ -111,7 +111,7 @@ function ContactForm() {
           </div>
         </div>
       </form>
-      {/* <hr className="hr-footer"></hr> */}
+      <hr className="hr-footer"></hr>
     </section>
   );
 }

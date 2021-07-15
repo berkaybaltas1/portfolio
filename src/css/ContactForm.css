@@ -39,6 +39,7 @@ textarea {
 
 textarea {
   padding-bottom: 5rem;
+  margin-bottom: 5rem;
 }
 
 .contact-logo {
@@ -69,7 +70,9 @@ textarea {
 }
 
 .button-container {
-  width: 100%;
+  left: 190px;
+  margin-top: 18rem;
+  position: absolute;
 }
 .hr-footer {
   margin-bottom: 5rem;
