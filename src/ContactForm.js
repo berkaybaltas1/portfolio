@@ -96,17 +96,19 @@ function ContactForm() {
             name="message"
             onChange={(e) => handleForm("message", e.target.value)}
           />
-          <button
-            onClick={() => {
-              const error = checkValid();
-              setMessage(error);
-            }}
-            className="form-btn"
-            type="submit"
-            value="Send"
-          >
-            send
-          </button>
+          <div className="button-container">
+            <button
+              onClick={() => {
+                const error = checkValid();
+                setMessage(error);
+              }}
+              className="form-btn"
+              type="submit"
+              value="Send"
+            >
+              send
+            </button>
+          </div>
         </div>
       </form>
       {/* <hr className="hr-footer"></hr> */}

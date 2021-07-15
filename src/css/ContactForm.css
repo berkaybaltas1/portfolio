@@ -68,6 +68,9 @@ textarea {
   outline: none;
 }
 
+.button-container {
+  width: 100%;
+}
 .hr-footer {
   margin-bottom: 5rem;
 }
