@@ -55,7 +55,7 @@ textarea {
   font-size: 1rem;
   border-radius: 50px;
   padding: 1.2rem 2rem;
-  margin: 5rem 0;
+  margin: 5rem 7rem;
   background-color: var(--color-primary-2);
 }
 
@@ -70,7 +70,6 @@ textarea {
 }
 
 .button-container {
-  left: 190px;
   margin-top: 18rem;
   position: absolute;
 }
