@@ -3,7 +3,7 @@
   margin: 0;
 }
 .navbar-container {
-  padding: 3rem 15rem;
+  padding: 2rem 10rem;
   background-color: white;
   display: flex;
   justify-content: space-between;
@@ -25,7 +25,10 @@
 @media only screen and (max-width: 800px) {
   .icon-menu-open,
   .icon-menu-close {
-    margin-left: 150px;
+    left: 400px;
+  }
+  .logo {
+    margin-left: -5rem;
   }
 }
 .icon-menu-close {
