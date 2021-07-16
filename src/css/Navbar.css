@@ -67,7 +67,6 @@ button:hover {
 .menu-open {
   text-align: right;
   z-index: 10;
-  margin: 0;
   opacity: 90%;
   line-height: 5rem;
   position: fixed;
