@@ -19,12 +19,13 @@
 }
 
 .card h3 {
-  padding-bottom: 2rem;
+  padding-bottom: 4rem;
   font-size: 1.5rem;
   color: var(--color-primary-2);
   font-family: Montserrat 100;
 }
 .card-logo {
+  padding-bottom: 2rem;
   font-size: 2.5rem;
   color: var(--color-primary-2);
 }
@@ -32,15 +33,14 @@
 .card-list {
   line-height: 2rem;
   list-style: none;
-  padding-bottom: 4rem;
   font-family: Montserrat;
   color: var(--color-primary-3);
   text-align: center;
   width: 80%;
   margin: auto;
-  padding-bottom: 2rem;
 }
 
 .card-hr {
   width: 2rem;
+  margin-top: 10rem;
 }

@@ -15,8 +15,7 @@ function Cards() {
             Proficient in HTML, CSS, Javascript using a modern library such as
             React JS.
           </li>
-          <li>Experience with Node.js and MongoDB.</li>
-          <li>Experience with Mongoose and Express.</li>
+          <li>Experience with Node.js, MongoDB, and Express.</li>
           <li>Familiar with SQL and AWS.</li>
         </ul>
         <hr className="card-hr"></hr>
@@ -42,8 +41,8 @@ function Cards() {
             React Node){" "}
           </li>
           <li>
-            Developed several mini-projects using React JS hooks such as
-            useState and useEffect.
+            Developed many mini-projects using React JS hooks such as useState
+            and useEffect.
           </li>
         </ul>
         <hr className="card-hr"></hr>
