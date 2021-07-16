@@ -17,8 +17,8 @@ function Cards() {
           </li>
           <li>Experience with Node.js, MongoDB, and Express.</li>
           <li>Familiar with SQL and AWS.</li>
+          <hr className="card-hr"></hr>
         </ul>
-        <hr className="card-hr"></hr>
       </div>
       <div className="card">
         <IoSchoolOutline className="card-logo" />
@@ -29,8 +29,8 @@ function Cards() {
             College.
           </li>
           <li>B.S. in Information Technology - Arizona State University.</li>
+          <hr className="card-hr"></hr>
         </ul>
-        <hr className="card-hr"></hr>
       </div>
       <div className="card">
         <HiOutlineViewGrid className="card-logo" />
@@ -44,8 +44,8 @@ function Cards() {
             Developed many mini-projects using React JS hooks such as useState
             and useEffect.
           </li>
+          <hr className="card-hr"></hr>
         </ul>
-        <hr className="card-hr"></hr>
       </div>
     </section>
   );
