@@ -30,9 +30,16 @@ nav {
   color: white;
   font-size: 2rem;
   z-index: 25;
-  -webkit-animation: spin 2s;
-  -moz-animation: spin 2s;
   animation: spin 2s;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
 }
 
 .icon-menu-close:hover {
@@ -76,37 +83,53 @@ button:hover {
   left: 0px;
   background-color: var(--color-primary-3);
 
-  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 2s; /* Firefox < 16 */
-  -ms-animation: fadein 2s; /* Internet Explorer */
-  -o-animation: fadein 2s; /* Opera < 12.1 */
-  animation: fadein 2s;
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
 }
-@keyframes fadein {
-  from {
+@keyframes fadeIn {
+  0% {
     opacity: 0;
   }
-  to {
+  100% {
     opacity: 0.9;
   }
 }
 
-/* Firefox < 16 */
-@-moz-keyframes fadein {
-  from {
+@-moz-keyframes fadeIn {
+  0% {
     opacity: 0;
   }
-  to {
+  100% {
     opacity: 0.9;
   }
 }
 
-/* Safari, Chrome and Opera > 12.1 */
-@-webkit-keyframes fadein {
-  from {
+@-webkit-keyframes fadeIn {
+  0% {
     opacity: 0;
   }
-  to {
+  100% {
+    opacity: 0.9;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
     opacity: 0.9;
   }
 }
