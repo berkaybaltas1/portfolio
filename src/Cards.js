@@ -1,54 +1,50 @@
-import React from "react";
-import { IoSchoolOutline } from "react-icons/io5";
-import { BsFileCode } from "react-icons/bs";
-import { HiOutlineViewGrid } from "react-icons/hi";
-import "./css/Cards.css";
+import React from 'react'
+import { IoSchoolOutline } from 'react-icons/io5'
+import { BsFileCode } from 'react-icons/bs'
+import { HiOutlineViewGrid } from 'react-icons/hi'
+import './css/Cards.css'
 
 function Cards() {
   return (
-    <section className="card-container">
-      <div className="card">
-        <BsFileCode className="card-logo" />
+    <section className='cards-container'>
+      <div className='cards'>
+        <BsFileCode className='cards-logo' />
         <h3>Skills.</h3>
-        <ul className="card-list">
+        <ul className='cards-list'>
           <li>
             Proficient in HTML, CSS, Javascript using a modern library such as
             React JS.
           </li>
+
           <li>Experience with Node.js, MongoDB, and Express.</li>
           <li>Familiar with SQL and AWS.</li>
-          <hr className="card-hr"></hr>
         </ul>
+        <hr className='mt-5 bg-black'></hr>
       </div>
-      <div className="card">
-        <IoSchoolOutline className="card-logo" />
+      <div className='cards'>
+        <IoSchoolOutline className='cards-logo' />
         <h3>Education.</h3>
-        <ul className="card-list">
+        <ul className='cards-list'>
           <li>
             A.A.S. in Computer Information Systems - Queensborough Community
             College.
           </li>
+
           <li>B.S. in Information Technology - Arizona State University.</li>
-          <hr className="card-hr"></hr>
         </ul>
+        <hr className='mt-5 bg-black'></hr>
       </div>
-      <div className="card">
-        <HiOutlineViewGrid className="card-logo" />
-        <h3>Projects.</h3>
-        <ul className="card-list">
-          <li>
-            Developed Tinder clone using the MERN stack. (MongoDB, Express,
-            React Node){" "}
-          </li>
-          <li>
-            Developed many mini-projects using React JS hooks such as useState
-            and useEffect.
-          </li>
-          <hr className="card-hr"></hr>
+      <div className='cards'>
+        <HiOutlineViewGrid className='cards-logo' />
+        <h3>Experience.</h3>
+        <ul className='cards-list'>
+          <li>Full Stack Web Developer - Source Digital</li>
+          <li>March 2021 - Present</li>
         </ul>
+        <hr className='mt-5  w-5 bg-black' />
       </div>
     </section>
-  );
+  )
 }
 
-export default Cards;
+export default Cards

@@ -3,44 +3,46 @@
   padding: 0;
 }
 
-.card-container {
-  margin-top: 5rem;
+.cards-container {
+  margin: 8rem 0;
   display: flex;
   flex-wrap: wrap;
   padding: 5rem;
 }
 
-.card {
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   margin: auto;
-  height: 30rem;
-  width: 30rem;
-  padding-bottom: 200px;
+  height: 500px;
+  width: 20rem;
 }
 
-.card h3 {
+.cards h3 {
   padding-bottom: 4rem;
   font-size: 1.5rem;
   color: var(--color-primary-2);
   font-family: Montserrat 100;
 }
-.card-logo {
+.cards-logo {
   padding-bottom: 2rem;
   font-size: 2.5rem;
+  height: 60px;
   color: var(--color-primary-2);
 }
 
-.card-list {
+.cards-list {
+  height: 300px;
   line-height: 2rem;
   list-style: none;
   font-family: Montserrat;
   color: var(--color-primary-3);
   text-align: center;
-  width: 80%;
   margin: auto;
 }
-
-.card-hr {
-  width: 2rem;
-  margin-top: 10rem;
+.cards-list li {
+  margin: 10px 0;
 }
