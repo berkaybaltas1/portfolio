@@ -7,14 +7,10 @@ function CarouselComponent() {
     <div className='carousel-size mb-5'>
       <div className='project-container'>
         <h3 className='text-center mb-5 '>Projects.</h3>
+        <hr className='mt-5 mb-5' />
       </div>
       <Carousel interval={10000} className='mt-5'>
         <Carousel.Item>
-          {/* <img
-            className='d-block w-100'
-            src='https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__340.jpg'
-            alt='First slide'
-          /> */}
           <div className='w-100'>
             <iframe
               className='iframe-block w-100'
