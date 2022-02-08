@@ -1,6 +1,8 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel'
 import './css/Carousel.css'
+import Button from 'react-bootstrap/Button'
+import { Link } from 'react-router-dom'
 
 function CarouselComponent() {
   return (
@@ -24,7 +26,9 @@ function CarouselComponent() {
               Built and deployed social-media/job-posting site using React,
               Redux, Firebase Authentication, Storage and Firestore DB.
             </p>
+
             <a
+              class='btn btn-outline-primary'
               href='https://afternoon-woodland-43403.herokuapp.com/'
               target='_blank'
             >
@@ -47,6 +51,7 @@ function CarouselComponent() {
               trees utilizing google maps API and open-source data.
             </p>
             <a
+              class='btn btn-outline-primary'
               href='https://distracted-sammet-cde354.netlify.app/'
               target='_blank'
             >
