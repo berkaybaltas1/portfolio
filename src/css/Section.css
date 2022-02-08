@@ -16,8 +16,16 @@
 }
 
 .section-container-2 {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   width: 100%;
+}
+.hr-profile {
+  margin-top: 100px !important;
 }
 .section-logo {
   font-family: Montserrat;

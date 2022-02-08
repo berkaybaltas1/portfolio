@@ -9,19 +9,19 @@ function Footer() {
         <ul>
           <li>
             <a href='https://www.instagram.com/berkay.baltas/' target='_blank'>
-              <RiInstagramFill className='icon-footer' />
+              <RiInstagramFill className='m-2 footer-icon' />
               Instagram
             </a>
           </li>
           <li>
             <a href='https://twitter.com/berkaybaltas1' target='_blank'>
-              <RiTwitterFill className='icon-footer' />
+              <RiTwitterFill className='m-2 footer-icon' />
               Twitter
             </a>
           </li>
           <li>
             <a href='https://github.com/berkaybaltas1' target='_blank'>
-              <RiGithubFill className='icon-footer' />
+              <RiGithubFill className='m-2 footer-icon' />
               Github
             </a>
           </li>

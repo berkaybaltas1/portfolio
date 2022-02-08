@@ -5,45 +5,66 @@ import './css/Carousel.css'
 function CarouselComponent() {
   return (
     <div className='carousel-size mb-5'>
-      <h3 className='text-center mb-5'>Projects.</h3>
-      <Carousel>
+      <div className='project-container'>
+        <h3 className='text-center mb-5 '>Projects.</h3>
+      </div>
+      <Carousel interval={10000} className='mt-5'>
         <Carousel.Item>
-          <img
+          {/* <img
             className='d-block w-100'
             src='https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__340.jpg'
             alt='First slide'
-          />
+          /> */}
+          <div className='w-100'>
+            <iframe
+              className='iframe-block w-100'
+              src='https://afternoon-woodland-43403.herokuapp.com/'
+            ></iframe>
+          </div>
+
           <Carousel.Caption>
-            <h3 className='text-white'>Werkin</h3>
-            <p>
-              {' '}
+            <h2 className='text-black'>Werkin</h2>
+            <p className='text-black'>
               Built and deployed social-media/job-posting site using React,
               Redux, Firebase Authentication, Storage and Firestore DB.
             </p>
+            <a
+              href='https://afternoon-woodland-43403.herokuapp.com/'
+              target='_blank'
+            >
+              Connect
+            </a>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img
-            className='d-block w-100'
-            src='https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__340.jpg'
-            alt='Second slide'
-          />
+          <div className='w-100'>
+            <iframe
+              className='iframe-block w-100'
+              src='https://distracted-sammet-cde354.netlify.app/'
+            ></iframe>
+          </div>
 
           <Carousel.Caption>
-            <h3 className='text-white'>Tree Map</h3>
-            <p>
-              {' '}
+            <h3 className='text-black'>Tree Map</h3>
+            <p className='text-black'>
               Developed a Tree map that displays location and conditions of NYC
               trees utilizing google maps API and open-source data.
             </p>
+            <a
+              href='https://distracted-sammet-cde354.netlify.app/'
+              target='_blank'
+            >
+              Connect
+            </a>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className='d-block w-100'
-            src='https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__340.jpg'
-            alt='Third slide'
-          />
+        {/* <Carousel.Item>
+          <div className='w-100'>
+            <iframe
+              className='iframe-block w-100'
+              src='https://afternoon-woodland-43403.herokuapp.com/'
+            ></iframe>
+          </div>
 
           <Carousel.Caption>
             <h3 className='text-white'>Third slide label</h3>
@@ -51,7 +72,7 @@ function CarouselComponent() {
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.
             </p>
           </Carousel.Caption>
-        </Carousel.Item>
+        </Carousel.Item> */}
       </Carousel>
     </div>
   )

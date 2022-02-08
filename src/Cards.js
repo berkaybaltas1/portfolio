@@ -41,7 +41,7 @@ function Cards() {
           <li>Full Stack Web Developer - Source Digital</li>
           <li>March 2021 - Present</li>
         </ul>
-        <hr className='mt-5  w-5 bg-black' />
+        <hr className='mt-5 w-5 bg-black' />
       </div>
     </section>
   )

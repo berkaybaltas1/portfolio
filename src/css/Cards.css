@@ -35,6 +35,7 @@
 }
 
 .cards-list {
+  padding: 0 !important;
   height: 300px;
   line-height: 2rem;
   list-style: none;
