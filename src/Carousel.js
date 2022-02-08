@@ -18,7 +18,7 @@ function CarouselComponent() {
             ></iframe>
           </div>
 
-          <Carousel.Caption>
+          <Carousel.Caption className='caption-carousel'>
             <h2 className='text-black'>Werkin</h2>
             <p className='text-black'>
               Built and deployed social-media/job-posting site using React,
@@ -40,7 +40,7 @@ function CarouselComponent() {
             ></iframe>
           </div>
 
-          <Carousel.Caption>
+          <Carousel.Caption className='caption-carousel'>
             <h3 className='text-black'>Tree Map</h3>
             <p className='text-black'>
               Developed a Tree map that displays location and conditions of NYC

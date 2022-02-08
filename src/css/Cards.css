@@ -19,10 +19,11 @@
   margin: auto;
   height: 500px;
   width: 20rem;
+  padding-bottom: 60px;
 }
 
 .cards h3 {
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
   font-size: 1.5rem;
   color: var(--color-primary-2);
   font-family: Montserrat 100;
@@ -46,4 +47,8 @@
 }
 .cards-list li {
   margin: 10px 0;
+}
+.hr-card {
+  display: flex;
+  align-items: center;
 }

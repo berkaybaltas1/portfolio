@@ -19,7 +19,7 @@ function Cards() {
           <li>Experience with Node.js, MongoDB, and Express.</li>
           <li>Familiar with SQL and AWS.</li>
         </ul>
-        <hr className='mt-5 bg-black'></hr>
+        <hr className='mt-5 bg-black hr-card'></hr>
       </div>
       <div className='cards'>
         <IoSchoolOutline className='cards-logo' />
@@ -32,7 +32,7 @@ function Cards() {
 
           <li>B.S. in Information Technology - Arizona State University.</li>
         </ul>
-        <hr className='mt-5 bg-black'></hr>
+        <hr className='mt-5 bg-black hr-card'></hr>
       </div>
       <div className='cards'>
         <HiOutlineViewGrid className='cards-logo' />
@@ -41,7 +41,7 @@ function Cards() {
           <li>Full Stack Web Developer - Source Digital</li>
           <li>March 2021 - Present</li>
         </ul>
-        <hr className='mt-5 w-5 bg-black' />
+        <hr className='mt-5 w-5 bg-black hr-card' />
       </div>
     </section>
   )
