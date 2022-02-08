@@ -7,7 +7,7 @@ function CarouselComponent() {
     <div className='carousel-size mb-5'>
       <div className='project-container'>
         <h3 className='text-center mb-5 '>Projects.</h3>
-        <hr className='mt-5 mb-5' />
+        <hr className='mt-5 mb-5 hr-carousel' />
       </div>
       <Carousel interval={10000} className='mt-5'>
         <Carousel.Item>
