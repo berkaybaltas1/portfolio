@@ -16,9 +16,9 @@
 }
 
 .caption-carousel {
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.9);
   border-radius: 10px;
-  border: solid 1px rgb(176, 176, 176);
+  border: solid 1px rgb(83, 82, 82);
   width: 50%;
   margin: auto;
   margin-bottom: 40px;
