@@ -47,7 +47,7 @@ function CarouselComponent() {
           <Carousel.Caption className='caption-carousel'>
             <h3 className='text-black'>Tree Map</h3>
             <p className='text-black'>
-              Developed a Tree map that displays location and conditions of NYC
+              Developed a tree map that displays location and conditions of NYC
               trees utilizing google maps API and open-source data.
             </p>
             <a
