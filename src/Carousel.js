@@ -16,7 +16,7 @@ function CarouselComponent() {
           <div className='w-100'>
             <iframe
               className='iframe-block w-100'
-              src='https://afternoon-woodland-43403.herokuapp.com/'
+              src='https://werkin.netlify.app/'
             ></iframe>
           </div>
 
@@ -29,7 +29,7 @@ function CarouselComponent() {
 
             <a
               class='btn btn-outline-primary'
-              href='https://afternoon-woodland-43403.herokuapp.com/'
+              href='https://werkin.netlify.app/'
               target='_blank'
             >
               Connect
