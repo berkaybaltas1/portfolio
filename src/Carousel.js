@@ -10,7 +10,7 @@ function CarouselComponent() {
         <hr className='mt-5 mb-5 hr-carousel' />
       </div>
       <div className='carousel'>
-        <Carousel interval={10000} className='w-50'>
+        <Carousel interval={10000} className='w-100'>
           <Carousel.Item>
             <div className='w-100'>
               <iframe
