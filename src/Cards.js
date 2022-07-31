@@ -11,13 +11,12 @@ function Cards() {
         <BsFileCode className='cards-logo' />
         <h3>Skills.</h3>
         <ul className='cards-list'>
-          <li>
-            Proficient in HTML, CSS, Javascript using a modern library such as
-            React JS.
-          </li>
-
-          <li>Experience with Node.js, MongoDB, and Express.</li>
-          <li>Familiar with SQL and AWS.</li>
+          <li>React, Vue</li>
+          <li>HTML, CSS, Javascript</li>
+          <li>Express, Node.js, SQL, NoSQL.</li>
+          <li>Jest, Enzyme, Selenium, Python</li>
+          <li>Redux, React-Router-DOM, React-Query, React-Table</li>
+          <li>MaterialUI, BootStrap, TailWindCSS</li>
         </ul>
         <hr className='mt-5 bg-black hr-card'></hr>
       </div>
@@ -25,12 +24,12 @@ function Cards() {
         <IoSchoolOutline className='cards-logo' />
         <h3>Education.</h3>
         <ul className='cards-list'>
-          <li>
-            A.A.S. in Computer Information Systems - Queensborough Community
-            College.
+          <li>Associate of Applied Science in Computer Information Systems</li>
+          <li>Queensborough Community College</li>
+          <li className='mt-5'>
+            Bachelors Of Science in Information Technology
           </li>
-
-          <li>B.S. in Information Technology - Arizona State University.</li>
+          <li>Arizona State University</li>
         </ul>
         <hr className='mt-5 bg-black hr-card'></hr>
       </div>
@@ -41,9 +40,7 @@ function Cards() {
           <li>Full Stack Web Developer</li>
           <li>Source Digital</li>
           <li>March 2021 - May 2022</li>
-        </ul>
-        <ul className='cards-list'>
-          <li>Junior Web Developer</li>
+          <li className='mt-5'>Junior Web Developer</li>
           <li>Applied Research Laboratories</li>
           <li>May 2022 - Present</li>
         </ul>

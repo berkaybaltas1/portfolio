@@ -11,9 +11,7 @@ function Home() {
       <Navbar />
       <Section />
       <Cards />
-
       <Carousel />
-
       <Section2 />
       <Footer />
     </div>
