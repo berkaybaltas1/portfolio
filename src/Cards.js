@@ -38,8 +38,14 @@ function Cards() {
         <HiOutlineViewGrid className='cards-logo' />
         <h3>Experience.</h3>
         <ul className='cards-list'>
-          <li>Full Stack Web Developer - Source Digital</li>
-          <li>March 2021 - Present</li>
+          <li>Full Stack Web Developer</li>
+          <li>Source Digital</li>
+          <li>March 2021 - May 2022</li>
+        </ul>
+        <ul className='cards-list'>
+          <li>Junior Web Developer</li>
+          <li>Applied Research Laboratories</li>
+          <li>May 2022 - Present</li>
         </ul>
         <hr className='mt-5 w-5 bg-black hr-card' />
       </div>
