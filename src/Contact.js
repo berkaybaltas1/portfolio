@@ -1,7 +1,7 @@
-import React, { useState } from "react";
-import Navbar from "./Navbar";
-import ContactForm from "./ContactForm";
-import Footer from "./Footer";
+import React from 'react'
+import Navbar from './Navbar'
+import ContactForm from './ContactForm'
+import Footer from './Footer'
 
 function Contact() {
   return (
@@ -12,7 +12,7 @@ function Contact() {
 
       <Footer />
     </section>
-  );
+  )
 }
 
-export default Contact;
+export default Contact

@@ -1,8 +1,6 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel'
 import './css/Carousel.css'
-import Button from 'react-bootstrap/Button'
-import { Link } from 'react-router-dom'
 
 function CarouselComponent() {
   return (
