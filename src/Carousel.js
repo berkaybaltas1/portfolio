@@ -13,6 +13,7 @@ function CarouselComponent() {
         <Carousel.Item>
           <div className='w-100'>
             <iframe
+              title='werkin'
               className='iframe-block w-100'
               src='https://werkin.netlify.app/'
             ></iframe>
@@ -38,6 +39,7 @@ function CarouselComponent() {
         <Carousel.Item>
           <div className='w-100'>
             <iframe
+              title='tree-map'
               className='iframe-block w-100'
               src='https://distracted-sammet-cde354.netlify.app/'
             ></iframe>
@@ -59,21 +61,6 @@ function CarouselComponent() {
             </a>
           </Carousel.Caption>
         </Carousel.Item>
-        {/* <Carousel.Item>
-          <div className='w-100'>
-            <iframe
-              className='iframe-block w-100'
-              src='https://afternoon-woodland-43403.herokuapp.com/'
-            ></iframe>
-          </div>
-
-          <Carousel.Caption>
-            <h3 className='text-white'>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
-          </Carousel.Caption>
-        </Carousel.Item> */}
       </Carousel>
     </div>
   )
