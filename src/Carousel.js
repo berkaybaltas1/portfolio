@@ -29,6 +29,7 @@ function CarouselComponent() {
               class='btn btn-outline-primary'
               href='https://werkin.netlify.app/'
               target='_blank'
+              rel='noreferrer'
             >
               Connect
             </a>
@@ -52,6 +53,7 @@ function CarouselComponent() {
               class='btn btn-outline-primary'
               href='https://distracted-sammet-cde354.netlify.app/'
               target='_blank'
+              rel='noreferrer'
             >
               Connect
             </a>
