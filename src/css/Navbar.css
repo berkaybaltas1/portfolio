@@ -61,7 +61,7 @@ button:hover {
 
 .nav-menu ul {
   padding: 0;
-  padding-top: 20rem;
+  margin-top: 500px;
   letter-spacing: 5px;
   list-style: none;
   text-align: center;
