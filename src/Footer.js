@@ -1,6 +1,6 @@
 import React from 'react'
 import '../src/css/Footer.css'
-import { RiInstagramFill, RiTwitterFill, RiGithubFill } from 'react-icons/ri'
+import { RiInstagramFill, RiLinkedinFill, RiGithubFill } from 'react-icons/ri'
 
 function Footer() {
   return (
@@ -19,12 +19,12 @@ function Footer() {
           </li>
           <li>
             <a
-              href='https://twitter.com/berkaybaltas1'
+              href='https://www.linkedin.com/in/berkaybaltas/'
               target='_blank'
               rel='noreferrer'
             >
-              <RiTwitterFill className='m-2 footer-icon' />
-              Twitter
+              <RiLinkedinFill className='m-2 footer-icon' />
+              LinkedIn
             </a>
           </li>
           <li>

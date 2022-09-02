@@ -40,7 +40,7 @@ function Cards() {
           <li>Full Stack Web Developer</li>
           <li>Source Digital</li>
           <li>March 2019 - May 2022</li>
-          <li className='mt-5'>Junior Web Developer</li>
+          <li className='mt-5'>Full Stack Web Developer</li>
           <li>Applied Research Laboratories</li>
           <li>May 2022 - Present</li>
         </ul>
