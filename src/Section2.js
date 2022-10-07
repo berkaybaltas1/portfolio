@@ -9,7 +9,6 @@ function Section2() {
     const options = {
       background: isVisible ? 'btn-p animate-btn' : 'btn-p btn-hidden'
     }
-    console.log(options)
     return (
       <div className='btn-container'>
         <button
@@ -21,6 +20,7 @@ function Section2() {
       </div>
     )
   }
+
   return (
     <section className='section2-container'>
       <div className='section2'>

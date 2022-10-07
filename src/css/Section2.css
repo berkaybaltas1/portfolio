@@ -21,9 +21,11 @@
   color: white;
   font-size: 3rem;
 }
+
 .btn-container {
   margin: auto;
 }
+
 .btn-p {
   margin-top: 0rem;
   z-index: 200;
@@ -42,10 +44,12 @@
   box-shadow: inset 0px 0px 5px #c1c1c1;
   outline: none;
 }
+
 .animate-btn {
   transform: translateY(-50px);
   transition: all 0.1s ease-in-out 0.1s;
 }
+
 .btn-primary:hover {
   background: var(--color-primary-2);
   color: var(--color-primary-3);

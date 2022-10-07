@@ -16,12 +16,12 @@ function CarouselComponent() {
               <iframe
                 title='werkin'
                 className='iframe-block w-100'
-                src='https://werkin.netlify.app/'
+                src='https:www.werklify.com'
               ></iframe>
             </div>
 
             <Carousel.Caption className='caption-carousel'>
-              <h2 className='text-black'>Werkin</h2>
+              <h2 className='text-black'>Werklify</h2>
               <p className='text-black'>
                 Built and deployed social-media/job-posting site using React,
                 Redux, Firebase Authentication, Storage and Firestore DB.
