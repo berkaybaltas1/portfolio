@@ -16,7 +16,7 @@ function CarouselComponent() {
               <iframe
                 title='werkin'
                 className='iframe-block w-100'
-                src='https:www.werklify.com'
+                src='https://www.werklify.com'
               ></iframe>
             </div>
 
@@ -29,7 +29,7 @@ function CarouselComponent() {
 
               <a
                 class='btn btn-outline-primary'
-                href='https://werkin.netlify.app/'
+                href='https://www.werklify.com'
                 target='_blank'
                 rel='noreferrer'
               >
