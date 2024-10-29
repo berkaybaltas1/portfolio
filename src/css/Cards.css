@@ -1,53 +1,76 @@
-* {
-  margin: 0;
+.custom-card {
+  width: 350px;
+  background-color: #f9f9f9;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.custom-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-icon {
+  font-size: 2.5rem;
+  color: var(--color-primary-3);
+}
+
+.card-title {
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 4rem;
+}
+
+.custom-list {
+  margin-top: 1rem;
   padding: 0;
-}
-
-.cards-container {
-  margin: 8rem 0;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 5rem;
-}
-
-.cards {
+  list-style: none;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  text-align: center;
-  margin: auto;
-  width: 20rem;
-  padding-bottom: 60px;
 }
 
-.cards h3 {
-  padding-bottom: 2rem;
-  font-size: 1.5rem;
-  color: var(--color-primary-2);
-  font-family: Montserrat 100;
-}
-.cards-logo {
-  padding-bottom: 2rem;
-  font-size: 2.5rem;
-  height: 60px;
-  color: var(--color-primary-2);
-}
-
-.cards-list {
-  padding: 0 !important;
-  height: 300px;
-  line-height: 2rem;
-  list-style: none;
-  font-family: Montserrat;
-  color: var(--color-primary-3);
-  text-align: center;
-  margin: auto;
-}
-.cards-list li {
-  margin: 10px 0;
-}
-.hr-card {
+.custom-list-item {
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 0.95rem;
+  padding: 0.7rem 0;
+  color: #555;
+  background-color: transparent;
+  border: none;
+  position: relative;
+}
+
+.custom-list-item::after {
+  content: '';
+  display: block;
+  margin: 0.5rem auto 0;
+  border-left: none;
+}
+
+.job-title {
+  font-weight: 600;
+  color: #333;
+}
+
+.company-name {
+  font-size: 0.9rem;
+  color: #007bff;
+  margin-top: 0.1rem;
+}
+
+.job-date {
+  font-size: 0.85rem;
+  color: #888;
+  margin-top: 0.1rem;
+  font-style: italic;
+}
+
+.title-primary {
+  color: var(--color-primary-3);
 }

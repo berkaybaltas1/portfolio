@@ -5,18 +5,22 @@ import Contact from './Contact'
 import { BrowserRouter as Router, Switch, Link } from 'react-router-dom'
 import AboutMe from './AboutMe'
 import ScrollToTop from './ScrollToTop'
+import Navbar from './Navbar'
 
 function App() {
   return (
-    <Router>
-      <ScrollToTop />
-      <Switch>
-        <Link exact path='/' component={Home} />
-        <Link exact path='/Login' component={Contact} />
-        <Link exact path='/About' component={AboutMe} />
-        <Link exact path='/Contact' component={Contact} />
-      </Switch>
-    </Router>
+    <>
+      <Router>
+        <Navbar />
+        <ScrollToTop />
+        <Switch>
+          <Link exact path='/' component={Home} />
+          <Link exact path='/Login' component={Contact} />
+          <Link exact path='/About' component={AboutMe} />
+          <Link exact path='/Contact' component={Contact} />
+        </Switch>
+      </Router>
+    </>
   )
 }
 

@@ -8,7 +8,6 @@ import Carousel from './Carousel'
 function Home() {
   return (
     <div>
-      <Navbar />
       <Section />
       <Cards />
       <Carousel />

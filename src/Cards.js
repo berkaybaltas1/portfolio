@@ -6,45 +6,74 @@ import './css/Cards.css'
 
 function Cards() {
   return (
-    <section className='cards-container'>
-      <div className='cards'>
-        <BsFileCode className='cards-logo' />
-        <h3>Skills.</h3>
-        <ul className='cards-list'>
-          <li>React, Vue</li>
-          <li>HTML, CSS, Javascript</li>
-          <li>Express, Node.js, SQL, NoSQL.</li>
-          <li>Jest, Enzyme, Selenium, Python</li>
-          <li>Redux, React-Router-DOM, React-Query, React-Table</li>
-          <li>MaterialUI, BootStrap, TailWindCSS</li>
-        </ul>
-        <hr className='mt-5 bg-black hr-card'></hr>
+    <section className='container d-flex flex-wrap justify-content-center gap-5 p-4'>
+      <div className='card custom-card'>
+        <div className='card-body text-center'>
+          <BsFileCode className='card-icon mb-3' />
+          <h5 className='card-title'>Skills</h5>
+          <ul className='list-group custom-list'>
+            <li className='list-group-item custom-list-item'>
+              React, Next.js, Vue
+            </li>
+            <li className='list-group-item custom-list-item'>
+              HTML, CSS, JavaScript, TypeScript
+            </li>
+            <li className='list-group-item custom-list-item'>
+              Node.js, Express, Python, Flask
+            </li>
+            <li className='list-group-item custom-list-item'>
+              SQL (PostgreSQL), NoSQL (MongoDB)
+            </li>
+            <li className='list-group-item custom-list-item'>
+              React Testing Library, Jest
+            </li>
+          </ul>
+        </div>
       </div>
-      <div className='cards'>
-        <IoSchoolOutline className='cards-logo' />
-        <h3>Education.</h3>
-        <ul className='cards-list'>
-          <li>Associate of Applied Science in Computer Information Systems</li>
-          <li>Queensborough Community College</li>
-          <li className='mt-5'>
-            Bachelors Of Science in Information Technology
-          </li>
-          <li>Arizona State University</li>
-        </ul>
-        <hr className='mt-5 bg-black hr-card'></hr>
+
+      <div className='card custom-card'>
+        <div className='card-body text-center'>
+          <IoSchoolOutline className='card-icon mb-3' />
+          <h5 className='card-title'>Education</h5>
+          <ul className='list-group custom-list'>
+            <li className='list-group-item custom-list-item'>
+              <span className='job-title'>
+                Associate in Computer Information Systems
+              </span>
+              <span className='company-name'>
+                Queensborough Community College
+              </span>
+              <span className='job-date'>2015 - 2017</span>
+            </li>
+            <span className='job-title'>Bachelor of Science in IT</span>
+            <span className='company-name'>Arizona State University</span>
+            <span className='job-date'>2019 - 2022</span>
+          </ul>
+        </div>
       </div>
-      <div className='cards'>
-        <HiOutlineViewGrid className='cards-logo' />
-        <h3>Experience.</h3>
-        <ul className='cards-list'>
-          <li>Full Stack Web Developer</li>
-          <li>Source Digital</li>
-          <li>March 2019 - May 2022</li>
-          <li className='mt-5'>Full Stack Web Developer</li>
-          <li>Applied Research Laboratories</li>
-          <li>May 2022 - Present</li>
-        </ul>
-        <hr className='mt-5 w-5 bg-black hr-card' />
+
+      <div className='card custom-card'>
+        <div className='card-body text-center'>
+          <HiOutlineViewGrid className='card-icon mb-3' />
+          <h5 className='card-title'>Experience</h5>
+          <ul className='list-group custom-list'>
+            <li className='custom-list-item'>
+              <span className='job-title'>Full Stack Web Developer</span>
+              <span className='company-name'>Source Digital</span>
+              <span className='job-date'>March 2019 - May 2022</span>
+            </li>
+            <li className='custom-list-item'>
+              <span className='job-title'>Full Stack Web Developer</span>
+              <span className='company-name'>Applied Research Labs</span>
+              <span className='job-date'>May 2022 - Nov 2022</span>
+            </li>
+            <li className='custom-list-item'>
+              <span className='job-title'>Full Stack Web Developer</span>
+              <span className='company-name'>Auria Space</span>
+              <span className='job-date'>Nov 2022 - Present</span>
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
   )

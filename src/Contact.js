@@ -6,10 +6,7 @@ import Footer from './Footer'
 function Contact() {
   return (
     <section>
-      <Navbar />
-
       <ContactForm />
-
       <Footer />
     </section>
   )

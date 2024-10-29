@@ -6,17 +6,17 @@ function CarouselComponent() {
   return (
     <div className='carousel-size mb-5'>
       <div className='projects-container'>
-        <h3 className='text-center mb-5 '>Projects.</h3>
         <hr className='mt-5 mb-5 hr-carousel' />
+        <h3 className='text-center mb-5 mt-5'>Projects.</h3>
       </div>
       <div className='carousel'>
         <Carousel interval={10000} className='w-100'>
           <Carousel.Item>
             <div className='w-100'>
               <iframe
-                title='werkin'
+                title='werklify'
                 className='iframe-block w-100'
-                src='https://www.werklify.com'
+                src='https://werklify.netlify.app/'
               ></iframe>
             </div>
 
@@ -29,7 +29,7 @@ function CarouselComponent() {
 
               <a
                 class='btn btn-outline-primary'
-                href='https://www.werklify.com'
+                href='https://werklify.netlify.app/'
                 target='_blank'
                 rel='noreferrer'
               >
