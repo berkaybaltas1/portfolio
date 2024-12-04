@@ -16,6 +16,7 @@ nav {
 }
 .logo {
   width: 50px;
+  cursor: pointer;
 }
 .icon-menu-open {
   left: 90%;

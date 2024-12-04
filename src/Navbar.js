@@ -7,16 +7,21 @@ import { useHistory } from 'react-router-dom'
 function Navbar() {
   const [clicked, setClicked] = useState(false)
   let history = useHistory()
+
+  const handleNavigate = (path) => {
+    history.push(path)
+    setClicked(false)
+  }
   return (
     <nav className='navbar-container'>
-      <div className='nav-menu' onClick={() => setClicked(!clicked)}>
+      <div className='nav-menu'>
         <img
           onClick={() => history.push('/')}
           className='logo'
           src={logo}
           alt='logo'
         ></img>
-        <i>
+        <i onClick={() => setClicked(!clicked)}>
           {clicked ? (
             <HiOutlineX className='icon-menu-close' />
           ) : (
@@ -26,13 +31,15 @@ function Navbar() {
         <div className={clicked ? 'menu-open' : 'menu-close'}>
           <ul>
             <li class='active'>
-              <button onClick={() => history.push('/')}>Home</button>
+              <button onClick={() => handleNavigate('/')}>Home</button>
             </li>
             <li>
-              <button onClick={() => history.push('/about')}>About me</button>
+              <button onClick={() => handleNavigate('/about')}>About me</button>
             </li>
             <li>
-              <button onClick={() => history.push('/contact')}>Contact</button>
+              <button onClick={() => handleNavigate('/contact')}>
+                Contact
+              </button>
             </li>
           </ul>
         </div>
